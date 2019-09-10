@@ -48,7 +48,7 @@ function insertImage($url, $src, $alt, $title) {
 function createLink($src, $url) {
 
 	$scheme = parse_url($url)["scheme"]; // http
-	$host = parse_url($url)["host"]; // www.reecekenney.com
+	$host = parse_url($url)["host"]; // www.bbc.com
 	
 	if(substr($src, 0, 2) == "//") {
 		$src =  $scheme . ":" . $src;
@@ -179,6 +179,6 @@ function followLinks($url) {
 
 }
 
-$startUrl = "https://a-z-animals.com";
+$startUrl = "https://www.bbc.com";
 followLinks($startUrl);
 ?>

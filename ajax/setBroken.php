@@ -14,6 +14,4 @@ else {
 	echo "No src passed to page";
 }
 
-
-
  ?>

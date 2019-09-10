@@ -1,7 +1,6 @@
 <?php 
 
-class DomDocumentParser
-{
+class DomDocumentParser{
 	private $doc;
 	public function __construct($url){
 		
@@ -28,6 +27,5 @@ class DomDocumentParser
 		return $this->doc->getElementsByTagName("img");
 	}
 }
-
 
 ?>

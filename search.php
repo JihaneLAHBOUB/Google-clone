@@ -13,6 +13,7 @@ include("classes/ImageResultProvider.php");
 	$type = isset($_GET['type']) ? $_GET['type'] : "sites";
 	$page = isset($_GET['page']) ? $_GET['page'] : 1;
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
